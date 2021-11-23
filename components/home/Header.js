@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <View style={styles.container}>
       <TouchableOpacity>
-        <Image source={require("../assets/logo.png")} style={styles.logo} />
+        <Image source={require("../../assets/logo.png")} style={styles.logo} />
       </TouchableOpacity>
 
       <View style={styles.iconsContainer}>
